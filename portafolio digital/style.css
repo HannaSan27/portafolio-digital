@@ -1,0 +1,146 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(120deg, #ffd6e9, #000);
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+  border-bottom: 2px solid #ffbcd6;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.perfil img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ffbcd6;
+  box-shadow: 0 0 15px rgba(255, 182, 193, 0.5);
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0;
+  color: #ffbcd6;
+}
+
+header p {
+  margin: 5px 0 0;
+  font-size: 1em;
+  color: #fff;
+}
+
+/* Secciones */
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+section {
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-5px);
+}
+
+section h2 {
+  color: #f14889;
+  border-bottom: 2px solid #fa5393;
+  display: inline-block;
+  padding-bottom: 4px;
+  margin-bottom: 15px;
+}
+
+section p {
+  color: #fff;
+  line-height: 1.6;
+  font-size: 1em;
+}
+
+.tarjeta {
+  text-align: center;
+}
+
+.tarjeta img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.tarjeta img:hover {
+  transform: scale(1.03);
+}
+
+.tarjeta h3 {
+  color: #f376a6;
+  margin-top: 15px;
+}
+
+/* Formulario */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #ffbcd6;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+button {
+  background-color: #e6518f;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff9ecb;
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #ffffff;
+  border-top: 2px solid #ac0b48;
+  background-color: rgba(0, 0, 0, 0.7);
+}
